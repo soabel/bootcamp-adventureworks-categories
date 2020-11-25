@@ -14,10 +14,10 @@ import java.util.List;
 @RequestMapping("categories")
 public class CategoriesController {
 
+    @Autowired
     private CategoriesService categoriesService;
 
-    private CategoriesController(CategoriesService categoriesService){
-        this.categoriesService=categoriesService;
+    private CategoriesController(){
     }
 
     @GetMapping("")

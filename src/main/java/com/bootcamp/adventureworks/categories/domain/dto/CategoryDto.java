@@ -9,6 +9,10 @@ public class CategoryDto {
     private String rowguid;
     private Date modifiedDate;
 
+    public CategoryDto(){
+
+    }
+
     public CategoryDto(Integer id, String name) {
         this.id = id;
         this.name = name;
